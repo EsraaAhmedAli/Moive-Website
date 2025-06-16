@@ -2,10 +2,9 @@
   "name": "lab4",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "cross-env json-server --watch db.json --port $PORT",
+    "start": "node index.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
